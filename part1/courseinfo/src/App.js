@@ -11,7 +11,6 @@ const App = () => {
 
   return (
     <div>
-      <Header course={course}/>
       <h1>{course}</h1>
       <p>
         {part1} {exercises1}
@@ -26,12 +25,5 @@ const App = () => {
     </div>
   )
 }
-
-const Header = (props) => {
-  <div>
-    <p>{props.course}</p>
-  </div>
-}
-
 
 export default App
